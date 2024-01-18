@@ -26,7 +26,7 @@ export class App extends Component {
       const normalizedCurrentName = item.name.toLowerCase();
       const normalizedCurrentNumber = item.number.toLowerCase();
       return (
-        normalizedCurrentName === normalizedName &&
+        normalizedCurrentName === normalizedName ||
         normalizedCurrentNumber === normalizedNumber
       );
     });
